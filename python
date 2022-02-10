@@ -1,0 +1,12 @@
+a=int(input('enter firstnumber'))
+if((a>0)):
+   print('positive number')
+else:
+    print('negative number')
+    
+output= enter firstnumber-1
+negative number
+>>> 
+enter firstnumber100
+positive number
+>>>
