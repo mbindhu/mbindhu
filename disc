@@ -1,0 +1,32 @@
+ amt = int(input("Enter Amount: "))
+ 
+# calculate amount with discount
+if(amt>0):
+    if amt>5000:
+       disc = amt*0.10
+    elif amt>3000:
+        disc=amt*0.08
+    elif amt>2000:
+        disc=0.05 * amt
+    elif amt>1000:
+        disc=0.1 * amt
+    elif amt>3000:
+        tax=0.1 * amt
+    else:
+        tax=0.18 * amt
+    print("Discount Amount : ",disc)
+    print("To be paid by Customer : ",amt-disc)
+else:
+    print("Invalid Amount")
+    
+    output:
+ Enter Amount: 100000
+Discount Amount :  10000.0
+To be paid by Customer :  90000.0
+ Enter Amount: 100000
+Discount Amount :  10000.0
+To be paid by Customer :  90000.0
+Enter Amount: 60000
+Discount Amount :  6000.0
+To be paid by Customer :  54000.0
+>>>
